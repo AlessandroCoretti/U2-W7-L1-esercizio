@@ -23,11 +23,6 @@ petForm.addEventListener("submit", (event) => {
   const species = document.getElementById("species").value;
   const breed = document.getElementById("breed").value;
 
-  console.log(petName);
-  console.log(ownerName);
-  console.log(species);
-  console.log(breed);
-
   const newPet = new Pet(petName, ownerName, species, breed);
 
   let sameOwnerMessage = false;
